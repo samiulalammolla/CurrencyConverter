@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(200, 224, 249);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 40px;
+    border: 1px solid black;
+}
+h3{
+    padding:20px;
+}
+h3:hover{
+    color: red;
+}
+#swap {
+    background-color:rgb(118, 154, 255);
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+#swap:hover{
+    /* background-color:rgb(61, 61, 252); */
+    color:red;
+}
+#rate{
+    display: inline;
+}
+#rate:hover{
+    font-weight: bold;
+    cursor:text;
+}
+.currency{
+    justify-content:space-between;
+}
+input[type="number"]{
+    background-color:rgb(233, 242, 248);
+    font-weight: bold;
+    border: 1px solid black;
+}
+select{
+    cursor:grab;
+    background: transparent;
+}
